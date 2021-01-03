@@ -1,7 +1,7 @@
 from mcpi.minecraft import Minecraft
 from mcpi.block import *
 mc = Minecraft.create()
-mc.events.clearAll()#イベントの削除
+mc.events.clearAll()#全てのイベントの削除
 while True:
     pos = mc.player.getTilePos()
     #チャットイベントの取得と処理
